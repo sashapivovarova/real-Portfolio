@@ -24,14 +24,13 @@ const projects = (await getCollection('work'))
 // Full Astro Component Syntax:
 // https://docs.astro.build/core-concepts/astro-components/
 ---
-
 <BaseLayout>
 	<div class="stack gap-20 lg:gap-48">
 		<div class="wrapper stack gap-8 lg:gap-20">
 			<header class="hero">
 				<Hero
-					title="Hello, my name is Jeanine White"
-					tagline="I am a Creative Developer who is currently based in Portland, Oregon."
+					title="Hello, my name is Eunsol Seo"
+					tagline="I am a Creative Developer who is currently based in Kyoto, Japan."
 					align="start"
 				>
 					<div class="roles">
@@ -42,10 +41,10 @@ const projects = (await getCollection('work'))
 				</Hero>
 
 				<img
-					alt="Jeanine White smiling in a red plaid shirt and tortoise shell glasses"
+					alt="eunsol"
 					width="480"
 					height="620"
-					src="/assets/portrait.jpg"
+					src="/assets/eunsol.jpg"
 				/>
 			</header>
 
@@ -91,7 +90,7 @@ const projects = (await getCollection('work'))
 				<div class="gallery">
 					<Grid variant="small">
 						{
-							['Medium', 'BuzzFeed', 'The Next Web', 'awwwards.', 'TechCrunch'].map((brand) => (
+							['Infra', 'Front-end', 'Back-end', 'Full-stack', 'Sever-side'].map((brand) => (
 								<li class="mention-card">
 									<p>{brand}</p>
 								</li>
