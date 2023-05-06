@@ -4,14 +4,13 @@ publishDate: 2020-03-04 00:00:00
 img: /assets/stock-3.jpg
 img_alt: Pearls of silky soft white cotton, bubble up under vibrant lighting
 description: |
-  I developed the best simple note app.
+  Privacy Policy of Simple Sticky Notes
 tags:
   - Memo App
   - iOS/Android
   - Flutter
 ---
 
-Privacy Policy of Simple Sticky Notes</br>
 In order to receive information about your Personal Data, the purposes and the parties the Data is shared with, contact the Owner.
 
 Owner and Data Controller
