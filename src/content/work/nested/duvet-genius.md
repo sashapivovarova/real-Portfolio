@@ -1,10 +1,10 @@
 ---
-title: Simple Stikcy Notes
+title: Stikcy Notes - Simple Version
 publishDate: 2020-03-04 00:00:00
 img: /assets/stock-3.jpg
 img_alt: Pearls of silky soft white cotton, bubble up under vibrant lighting
 description: |
-  Privacy Policy of Simple Sticky Notes
+  Privacy Policy of Sticky Notes - Simple Version
 tags:
   - Memo App
   - iOS/Android
