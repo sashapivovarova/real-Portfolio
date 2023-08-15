@@ -6,17 +6,13 @@ import ThemeToggle from './ThemeToggle.astro';
 const textLinks: { label: string; href: string }[] = [
 	{ label: 'Home', href: '/' },
 	{ label: 'Work', href: '/work/' },
-	{ label: 'About', href: '/about/' },
 ];
 
 /** Icon links to social media — edit these with links to your profiles! */
 const iconLinks: { label: string; href: string; icon: IconProps['icon'] }[] = [
-	{ label: 'Twitter', href: 'https://twitter.com/', icon: 'twitter-logo' },
-	{ label: 'Twitch', href: 'https://twitch.tv/', icon: 'twitch-logo' },
-	{ label: 'GitHub', href: 'https://github.com/sashapivovarova', icon: 'github-logo' },
-	{ label: 'CodePen', href: 'https://codepen.io/', icon: 'codepen-logo' },
-	{ label: 'dribbble', href: 'https://dribbble.com/', icon: 'dribbble-logo' },
-	{ label: 'YouTube', href: 'https://www.youtube.com/', icon: 'youtube-logo' },
+
+
+
 ];
 ---
 
@@ -30,7 +26,7 @@ const iconLinks: { label: string; href: string; icon: IconProps['icon'] }[] = [
 			<template>
 				<button class="menu-button" aria-expanded="false">
 					<span class="sr-only">Menu</span>
-					<Icon icon="list" />
+					
 				</button>
 			</template>
 		</menu-button>
